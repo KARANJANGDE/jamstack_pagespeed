@@ -1,0 +1,4 @@
+@import "../global.css";
+
+/* //----third-party css---// */
+@import "../../node_modules/react-multi-carousel/lib/styles.css";

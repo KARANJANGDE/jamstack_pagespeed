@@ -1,0 +1,1 @@
+export { SanityClientService } from "./sanity-client-service"

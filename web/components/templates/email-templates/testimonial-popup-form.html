@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{subject}} | Jamstacky</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,200;0,9..40,300;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+          @media only screen and (max-width: 767px) {
+             .title{
+                font-size: 18px;  
+             }  
+             .subTitle{
+                font-size: 16px;  
+             }
+          }
+    </style>
+  </head>
+
+  <body
+    style="
+      background-color: #f9fafb;
+      font-family: 'DM Sans';
+      font-size: 16px;
+      font-weight: 400;
+      line-height: inherit;
+      max-width: 100%;
+      width: 100%;
+      overflow-x: hidden;
+    "
+  >
+    <!-- <div><strong>{{subject}}</strong></div>
+    <div><strong>Name: </strong>{{name}}</div>
+    <div><strong>Phone Number: </strong>{{phoneNumber}}</div>
+    <div><strong>Email: </strong>{{email}}</div>
+    <div><strong> Company name: </strong>{{companyName}}</div>
+    <div><strong>Project type: </strong>{{projectType}}</div>
+    <div><strong>Message: </strong>{{message}}</div> -->
+
+    <div style="background-color: #f9fafb; height: 100%; width: 100%">
+      <div style="margin: 4em 0 4em; width: 100%">
+        <div style="margin: 0 auto; max-width: 90%; width: 100%">
+          <div
+            style="
+              align-items: center;
+              border: 2px solid rgba(33, 44, 51, 0.04);
+              max-width: 600px;
+              margin: 0 auto;
+              width: 100%;
+              background-color: #fff;
+            "
+          >
+            <div
+              style="
+                margin: 3em 0 8em;
+                overflow-y: auto;   
+                padding: 2em;
+                position: relative;
+                margin: 0 auto;
+              "
+            >
+              <h2 style="text-align: center">Welcome To Jamstacky</h2>
+              <p style="text-align: center">
+                {{subject}}
+              </p>
+
+              <table>
+          
+                  <tr style="display: block;">
+                    <td style="display: block; padding-top: 1em">
+                      <label
+                        for="name"
+                        style="font-size: 22px; font-weight: 500"
+                        class="title"
+                      >
+                        Name :
+                      </label>
+                    </td>
+                    <td style="padding-top: 0.5em;">
+                      <div
+                        style="
+                          font-size: 18px;
+                          font-weight: 500;
+                        "
+                        class="subTitle"
+                      >
+                        {{name}}
+                      </div>
+                    </td>
+                  </tr>
+                
+                  <tr style="display: block;">
+                    <td style="display: block;padding-top: 1em">
+                      <label
+                        for="email"
+                        style="font-size: 22px; font-weight: 500"
+                        class="title"
+                      >
+                        Email :</label>
+                    </td>
+                    <td style="padding-top: 0.5em">
+                      <div style="font-size: 18px; font-weight: 500;"  class="subTitle">
+                        {{email}}
+                      </div>
+                    </td>
+                  </tr>
+                 
+               
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

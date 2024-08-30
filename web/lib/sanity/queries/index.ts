@@ -1,0 +1,6 @@
+export * from './pageQuery'
+export * from './homePageQuery'
+export * from './casestudiesQuery'
+export * from './frameWorkQuery'
+export * from './blogsQuery'
+export * from './pricingPageQuery'

@@ -1,0 +1,68 @@
+{
+  "root": true,
+  "api": {
+    "projectId": "jaqhm6yh",
+    "dataset": "production"
+  },
+  "project": {
+    "name": "Jamstacky"
+  },
+  "__experimental_spaces": [
+    {
+      "name": "production",
+      "title": "Jamstacky (production)",
+      "default": true,
+      "api": {
+        "projectId": "jaqhm6yh",
+        "dataset": "production"
+      }
+    },
+    {
+      "name": "development",
+      "title": "Jamstacky (development)",
+      "api": {
+        "projectId": "jaqhm6yh",
+        "dataset": "development"
+      }
+    }
+  ],
+  "plugins": [
+    "@sanity/base",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool",
+    "datatable",
+    "@sanity/color-input",
+    "note-field",
+    "simple-star-rating"
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        "@sanity/vision"
+      ]
+    }
+  },
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema"
+    },
+    {
+      "name": "part:@sanity/desk-tool/structure",
+      "path": "./desk/desk-structure.js"
+    },
+    {
+      "implements": "part:@sanity/base/brand-logo",
+      "path": "./desk/assets/icons/myLogo.js"
+    },
+    {
+      "name": "part:@sanity/base/initial-value-templates",
+      "path": "./desk/initial-value-templates"
+    },
+    {
+      "name": "part:@sanity/base/new-document-structure",
+      "path": "./desk/new-document-structure.js"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  // Note: This config is only used to help editors like VS Code understand/resolve
+  // parts, the actual transpilation is done by babel. Any compiler configuration in
+  // here will be ignored.
+  "include": ["./node_modules/@sanity/base/types/**/*.ts", "./**/*.ts", "./**/*.tsx", "schemas/documents/pages/all_page/index.js", "desk/new-document-structure.js", "desk/new-document-structure.js", "desk/initial-value-templates/helper/defaults.js", "desk/initial-value-templates/helper/defaults.js", "desk/initial-value-templates/index.js", "desk/initial-value-templates/index.js", "desk/helper/structure-list-all.js", "desk/helper/structure-list-all.js", "desk/helper/structure-list-type.js", "component/staff/index.js"]
+}

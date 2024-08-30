@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://jamstacky-next.vercel.app
+
+# Sitemaps
+Sitemap: https://jamstacky-next.vercel.app/sitemap.xml

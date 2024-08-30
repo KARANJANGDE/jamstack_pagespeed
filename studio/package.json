@@ -1,0 +1,51 @@
+{
+  "name": "jamstacky-studio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "package.json",
+  "author": "Codage Habitation <infocodagehabitation@gmail.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start",
+    "build": "sanity build",
+    "deploy": "sanity deploy",
+    "dataset:export:production": "sanity dataset export production artifacts --allow-failing-assets",
+    "dataset:import:production": "sanity dataset import ./artifacts/development.tar.gz production --replace",
+    "dataset:export:development": "sanity dataset export development artifacts --allow-failing-assets",
+    "dataset:import:development": "sanity dataset import ./artifacts/production.tar.gz development --replace"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^2.34.0",
+    "@sanity/client": "^3.4.1",
+    "@sanity/color-input": "^2.35.0",
+    "@sanity/core": "^2.34.0",
+    "@sanity/default-layout": "^2.34.0",
+    "@sanity/default-login": "^2.34.0",
+    "@sanity/desk-tool": "^2.34.1",
+    "@sanity/eslint-config-studio": "^2.0.0",
+    "@sanity/icons": "^1.3.6",
+    "@sanity/vision": "^2.34.0",
+    "eslint": "^8.6.0",
+    "prop-types": "^15.7",
+    "query-string": "7.1.1",
+    "react": "^17.0",
+    "react-dom": "^17.0",
+    "react-icons": "^4.7.1",
+    "sanity-pills": "^1.12.0",
+    "sanity-plugin-datatable": "^1.1.0",
+    "sanity-plugin-iframe-pane": "^1.1.5",
+    "sanity-plugin-note-field": "^1.1.4",
+    "sanity-plugin-simple-star-rating": "^0.1.6",
+    "sanity-plugin-tabs": "^2.1.0",
+    "sanity-super-pane": "^1.0.0-alpha.11",
+    "styled-components": "^5.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codagehabitation/jamstacky.git"
+  }
+}
