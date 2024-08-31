@@ -53,7 +53,7 @@ const Hero: React.FC<HomeheroSectionType> = (sectionProps) => {
                   </div>
                 )}
               </div>
-              <p className="text-base emd:text-xl xl:text-[22px] font-normal leading-[1.5em] text-menu-title-text w-[90%] esm:w-4/5 em:w-full md:w-4/5 emd:w-full ml-auto em:ml-0 mr-auto">
+              <p className="text-[14px] emd:text-xl xl:text-[22px] font-normal leading-[1.5em] text-menu-title-text w-[90%] esm:w-4/5 em:w-full md:w-4/5 emd:w-full ml-auto em:ml-0 mr-auto">
                 {hero_description}
               </p>
               <div className="banner-btn">
@@ -91,8 +91,8 @@ const Hero: React.FC<HomeheroSectionType> = (sectionProps) => {
             )}
           </div>
         </div>
-        <div className="max-w-4/5 esm:max-w-[70%] em:max-w-4/5 lg:max-w-[64%] text-center relative z-0 mt-0 em:mt-12 mb-0 mx-auto my-0 pb-12 pt-0 em:pt-12 sm:pt-16">
-          <p className="text-sm em:text-base md:text-lg lg:text-xl !leading-[1.6em] font-normal text-dark-blue">
+        <div className="max-w-[80%] esm:max-w-[70%] em:max-w-4/5 lg:max-w-[64%] text-center relative z-0 mt-0 em:mt-12 mb-0 mx-auto my-0 pb-12 pt-0 em:pt-12 sm:pt-16">
+          <p className="text-[13px] em:text-base md:text-lg lg:text-xl !leading-[1.6em] font-normal text-dark-blue">
             {bottom_description}
           </p>
         </div>
